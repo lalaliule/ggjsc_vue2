@@ -1,0 +1,121 @@
+*,p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background: #f4f4f4;
+  overflow: auto;
+  position: relative;
+  // font-family: PingFangSC-Regular,sans-serif; 
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+/deep/ .ant-calendar {
+  width: 350px!important;
+}
+/deep/.ant-calendar-picker-container-content{
+  width: 350px!important;
+}
+.ant-calendar-footer-extra {
+  text-align: right !important;
+  button{
+    margin-left:5px;
+  }
+}
+
+.tooltip-title{
+  background: rgba(0, 0, 0,0.4);
+  border-radius: 10px 10px 0px 0px;
+  color:#fff;
+  margin:0;
+  padding:0 10px;
+  line-height: 30px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+}
+.tooltip-line{
+  margin: 0;
+  padding:0 10px;
+  line-height: 30px;
+}
+.dataFrom{
+        font-size: 14px;
+        color:#969696;
+        font-family: PingFangSC-Medium,PingFang SC;
+        margin-left: 6px;
+}
+
+// ie关闭动画
+.ant-select-dropdown.slide-up-enter.slide-up-enter-active.ant-select-dropdown-placement-bottomLeft,
+.ant-select-dropdown.slide-up-appear.slide-up-appear-active.ant-select-dropdown-placement-bottomLeft {
+  -webkit-animation-name: unset !important;
+          animation-name: unset !important;
+  -webkit-animation-duration: 0.05s !important;
+  animation-duration: 0.05s !important;
+}
+.ant-select-dropdown.slide-up-enter.slide-up-enter-active.ant-select-dropdown-placement-topLeft,
+.ant-select-dropdown.slide-up-appear.slide-up-appear-active.ant-select-dropdown-placement-topLeft {
+  -webkit-animation-name: unset !important;
+          animation-name: unset !important;
+          -webkit-animation-duration: 0.05s !important;
+  animation-duration: 0.05s !important;
+}
+.ant-select-dropdown.slide-up-leave.slide-up-leave-active.ant-select-dropdown-placement-bottomLeft {
+  -webkit-animation-name: unset !important;
+          animation-name: unset !important;
+          -webkit-animation-duration: 0.05s !important;
+  animation-duration: 0.05s !important;
+}
+.ant-select-dropdown.slide-up-leave.slide-up-leave-active.ant-select-dropdown-placement-topLeft {
+  -webkit-animation-name: unset !important;
+          animation-name: unset !important;
+          -webkit-animation-duration: 0.05s !important;
+  animation-duration: 0.05s !important;
+}
+
+.ant-calendar-picker-container.slide-up-enter.slide-up-enter-active.ant-calendar-picker-container-placement-topLeft,
+.ant-calendar-picker-container.slide-up-enter.slide-up-enter-active.ant-calendar-picker-container-placement-topRight,
+.ant-calendar-picker-container.slide-up-appear.slide-up-appear-active.ant-calendar-picker-container-placement-topLeft,
+.ant-calendar-picker-container.slide-up-appear.slide-up-appear-active.ant-calendar-picker-container-placement-topRight {
+  -webkit-animation-name: unset !important;
+          animation-name: unset !important;
+          -webkit-animation-duration: 0.05s !important;
+  animation-duration: 0.05s !important;
+}
+.ant-calendar-picker-container.slide-up-enter.slide-up-enter-active.ant-calendar-picker-container-placement-bottomLeft,
+.ant-calendar-picker-container.slide-up-enter.slide-up-enter-active.ant-calendar-picker-container-placement-bottomRight,
+.ant-calendar-picker-container.slide-up-appear.slide-up-appear-active.ant-calendar-picker-container-placement-bottomLeft,
+.ant-calendar-picker-container.slide-up-appear.slide-up-appear-active.ant-calendar-picker-container-placement-bottomRight {
+  -webkit-animation-name: unset !important;
+          animation-name: unset !important;
+          -webkit-animation-duration: 0.05s !important;
+  animation-duration: 0.05s !important;
+}
+.ant-calendar-picker-container.slide-up-leave.slide-up-leave-active.ant-calendar-picker-container-placement-topLeft,
+.ant-calendar-picker-container.slide-up-leave.slide-up-leave-active.ant-calendar-picker-container-placement-topRight {
+  -webkit-animation-name: unset !important;
+          animation-name: unset !important;
+          -webkit-animation-duration: 0.05s !important;
+  animation-duration: 0.05s !important;
+}
+.ant-calendar-picker-container.slide-up-leave.slide-up-leave-active.ant-calendar-picker-container-placement-bottomLeft,
+.ant-calendar-picker-container.slide-up-leave.slide-up-leave-active.ant-calendar-picker-container-placement-bottomRight {
+  -webkit-animation-name: unset !important;
+          animation-name: unset !important;
+          -webkit-animation-duration: 0.05s !important;
+  animation-duration: 0.05s !important;
+}
